@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="menu-container">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+            
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#" class="dropdown-item">Account Settings</a>
+                <a href="#" class="dropdown-item">Data Sources</a>
+                <a href="#" class="dropdown-item">User Management</a>
+                <a href="#" class="dropdown-item">Integrations</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Logout</a>
+            </div>
+        </div>
+
+        <div class="nav-icons">
+            <a href="#" class="nav-icon active" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+            <a href="#" class="nav-icon alert" aria-label="Notifications"><i class="fa-solid fa-bell"></i></a>
+            <a href="#" class="nav-icon" aria-label="Messages"><i class="fa-solid fa-comment-alt"></i></a>
+        </div>
+    </nav>
+
+    <script src="logic.js"></script>
+</body>
+</html>
